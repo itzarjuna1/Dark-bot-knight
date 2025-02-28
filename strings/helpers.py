@@ -215,5 +215,5 @@ HELP_20 = """
 HELP_21 = """
 Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⬤ /sʟᴀᴘ ➥ Sʟᴀᴘs sᴏᴍᴇᴏɴᴇ. Iғ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, sʟᴀᴘs ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴜsᴇʀ.
-⬤ /pat ➥ MAKE A PAT SOMEONE. IF USED AS A REPLY , MAKE PAT THE REPLIES USERS.
+⬤ /pat ➥ ᴍᴀᴋᴇ ᴀ ᴘᴀᴛ ꜱᴏᴍᴇᴏɴᴇ. ɪꜰ ᴜꜱᴇᴅ ᴀꜱ ᴀ ʀᴇᴘʟʏ , ᴍᴀᴋᴇ ᴘᴀᴛ ᴛʜᴇ ʀᴇᴘʟɪᴇꜱ ᴜꜱᴇʀꜱ.
 """
