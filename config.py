@@ -8,15 +8,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 24753274))
-API_HASH = getenv("API_HASH", 625668050f7e193a994e2f5ddc4aafe5)
+API_ID = int(getenv("API_ID", "22470785"))
+API_HASH = getenv("API_HASH", "8093e0132575bd2e33ec762a9b9b3294")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", 7743484569:AAEAAyW9epIMCxN9sPfXFq0d6iOZd5tkqqM)
+BOT_TOKEN = getenv("BOT_TOKEN", "7743484569:AAEAAyW9epIMCxN9sPfXFq0d6iOZd5tkqqM")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://Dark_infinity_bot:Dark_infinity_bot@cluster0.1q8zf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", DarkBot)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Dark_infinity_bot:Dark_infinity_bot@cluster0.1q8zf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-infinity")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
