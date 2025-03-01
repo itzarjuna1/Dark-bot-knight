@@ -12,7 +12,7 @@ API_ID = int(getenv("API_ID", "22470785"))
 API_HASH = getenv("API_HASH", "8093e0132575bd2e33ec762a9b9b3294")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7743484569:AAHUV1vppKgLf6hsjR8vCp2awAxHNtZzeW4")
+BOT_TOKEN = getenv("BOT_TOKEN","7743484569:AAE16fvi97wKbVqxgJeHUUP_phdaa0Eo738")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Dark_infinity_bot:Dark_infinity_bot@cluster0.1q8zf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gokukhan1/musicgoku",
+    "https://github.com/Gxinfinity/musicgoku",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -76,7 +76,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
 STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", "BQAtdNIAm80nPYKhPYf2jQBbmEdkW9Y6NO1eZ5Mn-rk5L9brSyF63mmSUB4gG8lvUwcTKeI1ACfPNytytyKTLfXBTjrRdYn4_rMviBGGkSQi5lgW2IgE93yoZdx9U_CJcs4MAVJNWihlOLKNhISt77KeAVO0XerL1oh6xHn0mPqw4XV8m5NafBIfLZEf4vejxjhuVYmgaRFPenOVxLJx7r2xlu6uiu3fCvGC0ZOomADz6sA3OnN5ldqJd8YE4HumrtZq9wP9XuBOVOp9MB5IUT2XzWafsOllzbVlpXevdlnqYg9yRdhlR_DIYhup7EjFf5TWpNYnyfuLfZS6u5jkalNOrUn0hgAAAAHNjDKZAQ")
+STRING2 = getenv("STRING_SESSION2", "BQFW4IEAmb6RcoDYoy1KcM1BVANd1sfGJBrRMSv1PFn0Tpx8lXhSSjylGvaGGTKfGdSY-iw_nDl0aRx6j08aMVCQcMD8fRpgKollmTeu4vNkwgG1jUhuJdW8vC0JKJoiYQeTmQIDxcYt0JxGcuo8L38BSnPJmhyJKHtLhbXxtYPVb33JLWNfGk7rNSVbZ-WratG9qmpVgcYLxc41VeatlyUQKV9WLAnyPbGZskNXXnKX682Z01x8N3qTtezvZWcx_HPQDoniP6XlIcZ5zihwHJhbRjVIg6uQnIs6u__KGqTd3rFFTLeCIoBwvg-qvjsHsCJHTU4JrzimFNX9G0ebBoKUL4IFwQAAAAHJuDxIAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
