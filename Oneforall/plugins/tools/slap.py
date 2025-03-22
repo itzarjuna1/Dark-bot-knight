@@ -24,6 +24,7 @@ sfw_actions = [
     "cringe",
     "blush",
     "happy",
+    "kick",
 ]
 
 # Dynamically create handlers for each sfw action
