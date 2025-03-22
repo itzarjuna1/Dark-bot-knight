@@ -134,9 +134,9 @@ async def ctest(_, message):
     # c2_name = (await app.get_users(c2_id)).first_name
 
     #   TXT = f"""
-    # **ᴛᴏᴅᴀʏ's sᴇʟᴇᴄᴛᴇᴅ ᴄᴏᴜᴘʟᴇs 🎉 :
+    # **ᴛᴏᴅᴀʏ's sᴇʟᴇᴄᴛᴇᴅ ᴄᴏᴜᴘʟᴇs 😁 :
     # ➖➖➖➖➖➖➖➖➖➖➖➖
-    # [{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = ❣️
+    # [{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = 💞🎀
     # ➖➖➖➖➖➖➖➖➖➖➖➖
     # ɴᴇxᴛ ᴄᴏᴜᴘʟᴇꜱ ᴡɪʟʟ ʙᴇ ꜱᴇʟᴇᴄᴛᴇᴅ ᴏɴ {tomorrow} !!**
     # """
