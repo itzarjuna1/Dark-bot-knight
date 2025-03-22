@@ -81,7 +81,7 @@ async def remove(client, message):
                                 await asyncio.sleep(10)
                             if k == lenDeletedList:
                                 await message.reply(
-                                    f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ᴀʟʟ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄɪᴜɴᴛs ғʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ."
+                                    f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ᴀʟʟ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛ's ғʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ."
                                 )
                                 await temp.delete()
                             else:
