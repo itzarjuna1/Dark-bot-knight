@@ -1,4 +1,4 @@
-bn9RU9EtzxZEJq2WoFYh2pk8_Phg# Netscape HTTP Cookie File
+# Netscape HTTP Cookie File
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
