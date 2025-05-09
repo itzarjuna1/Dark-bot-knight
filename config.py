@@ -8,24 +8,24 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "26270741"))
-API_HASH = getenv("API_HASH", "0722e9b90bd09fb5d278a4039d082ef4")
+API_ID = int(getenv("API_ID","22565342"))
+API_HASH = getenv("API_HASH", "75e035926f72f2f4155a6f5f6e64be03")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","7743484569:AAEyqRPU5PwVuHsHbPDViWB5rY_OOocNzx4")
+BOT_TOKEN = getenv("BOT_TOKEN","7201420162:AAGLrxRRqs3k0dqXvXciedRwQxFD8CRqEpE")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Dark_infinity_bot:Dark_infinity_bot@cluster0.1q8zf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-infinity")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dark-bot-knight")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002273083150))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002529294898))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7290350162"))
+OWNER_ID = int(getenv("OWNER_ID","7926944005"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gxinfinity_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/infinitygx_bot_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+DB1QohIvhncxYzQ0")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+r8H4po48Ns5kNTk0")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
