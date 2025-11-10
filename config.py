@@ -59,7 +59,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "bcfe26b0ebc3428882a0b5fb3e87247
 SPOTIFY_CLIENT_SECRET = getenv(
     "SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd752273cc4"
 )
-
+YOUTUBE_API_KEY = getenv("YOUTUBE_API_KEY","5850344558mshe4ec4f98017cdd5p15d0d2jsnc8ef41e1fe8c")
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "1000"))
