@@ -118,7 +118,13 @@ def PlayWrapper(command):
             userbot = await get_assistant(chat_id)
             try:
                 try:
-                    get = await app.get_chat_member(chat_id, userbot.id)
+                    me = await app.get_me()
+                    uid = me.id
+               try:
+      await app.join_chat(chat_id)
+ except:
+      pass
+get = await app.get_chat_member(chat_id, uid)
                 except ChatAdminRequired:
                     return await message.reply_text(_["call_1"])
                 if (
