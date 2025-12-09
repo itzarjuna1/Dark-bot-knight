@@ -3,7 +3,7 @@ from pyrogram.enums import ChatMemberStatus
 
 import config
 
-from ..logging import LOGGER
+from Oneforall.utils.logger import LOGGER
 
 
 class Hotty(Client):
