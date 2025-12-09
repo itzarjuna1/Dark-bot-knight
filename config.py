@@ -91,18 +91,18 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/72f160692b44c99ba8cf9-b1e025fae29c12500a.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/40b5617c674e66d94ca91-eb57d11a9f60e230c6.jpg")
-PLAYLIST_IMG_URL = "https://graph.org/file/4e81f00155356f3b5d8f5-a7c36abd8fdd11625c.jpg"
-STATS_IMG_URL = "https://graph.org/file/c07f2ac06917736c5d5ae-4e09340b4b56d5c72d.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/182987be0b1ebc284f931-a69a0305ffc2f5b44e.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/61ed76efa7ccc68c1a860-c83886fe4ff4bcae94.jpg"
-STREAM_IMG_URL = "https://graph.org/file/68d0fd87de32c473d16ba-63a3fbbaa7d6a0f731.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/b99b04565b61a14cf8462-d10f6c3937252aedcc.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/2bc20c29f052468a26bd0-7be6152e54d7342bac.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/c85291bab933d84ed5184-db9128c50cd2a54cca.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/c85291bab933d84ed5184-db9128c50cd2a54cca.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/c85291bab933d84ed5184-db9128c50cd2a54cca.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/88c43dfc225cf46db1792-007008bbe37f49cf84.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/88c43dfc225cf46db1792-007008bbe37f49cf84.jpg")
+PLAYLIST_IMG_URL = "https://graph.org/file/88c43dfc225cf46db1792-007008bbe37f49cf84.jpg"
+STATS_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+STREAM_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/1472b5b3882112d30954d-3adce13858ed3527f0.jpg"
 
 
 def time_to_seconds(time):
