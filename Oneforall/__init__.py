@@ -17,9 +17,6 @@ app = Hotty()
 userbot = Userbot()
 api = SafoneAPI()
 
-
-from .platforms import *
-
 Apple = AppleAPI()
 Carbon = CarbonAPI()
 SoundCloud = SoundAPI()
@@ -29,3 +26,5 @@ Telegram = TeleAPI()
 YouTube = YouTubeAPI()
 
 APP = "Raiden_Robot"  # connect music api key "Dont change it"
+
+from .platforms import *
