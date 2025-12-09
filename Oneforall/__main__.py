@@ -36,26 +36,26 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("Oneforall.plugins" + all_module)
-    LOGGER("Oneforall.plugins").info("Successfully Imported Modules...")
+    LOGGER("Oneforall.plugins").info("Successfully Imported itachi musics Modules...")
     await userbot.start()
     await Hotty.start()
     try:
         await Hotty.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
     except NoActiveGroupCall:
         LOGGER("Oneforall").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
+            "Please turn on the videochat of your log group\channel so that itachi music can jo8n the vc.\n\nStopping robot..."
         )
         exit()
     except:
         pass
     await Hotty.decorators()
     LOGGER("Oneforall ").info(
-        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ  ᴊᴏɪɴ https://t.me/PiratesMainchat ꜰᴏʀ ᴀɴʏ ɪꜱꜱᴜᴇꜱ"
+        "ᴅʀᴏᴘ ʏᴏᴜʀ bro'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ  ᴊᴏɪɴ https://t.me/dark_musictm ꜰᴏʀ ᴀɴʏ ɪꜱꜱᴜᴇꜱ"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Oneforall").info("Stopping One for all Bot...")
+    LOGGER("Oneforall").info("Stopping itachi music  Bot...")
 
 
 if __name__ == "__main__":
